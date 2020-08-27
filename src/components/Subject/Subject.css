@@ -1,0 +1,14 @@
+.subject-container{
+    border-bottom: 1px solid lightgray;
+    margin-right: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display:flex;
+}
+.course-picture img{
+    width: 250px;
+    height: 280px;
+}
+.course-data{
+    margin-left: 10px;
+}

@@ -1,0 +1,19 @@
+.heading{
+    background-color:#2c2c2c;
+    text-align:center;
+    color: white;
+    font-size:50px
+}
+.header nav{
+    text-align:first;
+    font-size:30px;
+    padding: 5px;
+    background-color:black;
+}
+nav a{
+    margin: 10px;
+    text-decoration:none;
+}
+nav a:hover{
+    background-color:lightgray;
+}
