@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faShoppingCart } from '@fortawesome/free-solid-svg-icons';
+import { faHandPointRight } from '@fortawesome/free-solid-svg-icons';
 import './Subject.css'
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
@@ -20,7 +20,7 @@ const Subject = (props) => {
                 <h3> <strong>$ {price}</strong> </h3>
                 <br/>
                 <br/>
-                <button class="btn btn-success"onClick={()=> handleEnrolled(props.classes)} > <FontAwesomeIcon icon={faShoppingCart} /> Enroll Now</button>
+                <button class="btn btn-success"onClick={()=> handleEnrolled(props.classes)} > <FontAwesomeIcon icon={faHandPointRight} /> Enroll Now</button>
             </div>
         </div>
     );
